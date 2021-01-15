@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4644" started-at="2020-05-15T12:20:42Z" finished-at="2020-05-15T12:20:47Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Login_TestCase.Check_PlaceHolder_Password()[pri:6, instance:com.classes360.Login_TestCase@27a8c74e]" name="Check_PlaceHolder_Password" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.Check_PlaceHolder_Username()[pri:5, instance:com.classes360.Login_TestCase@27a8c74e]" name="Check_PlaceHolder_Username" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.Verify_Url()[pri:1, instance:com.classes360.Login_TestCase@27a8c74e]" name="Verify_Url" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.blank_username_password()[pri:9, instance:com.classes360.Login_TestCase@27a8c74e]" name="blank_username_password" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.check_Button_color()[pri:7, instance:com.classes360.Login_TestCase@27a8c74e]" name="check_Button_color" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.check_Links()[pri:8, instance:com.classes360.Login_TestCase@27a8c74e]" name="check_Links" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.invalidusername_password()[pri:10, instance:com.classes360.Login_TestCase@27a8c74e]" name="invalidusername_password" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.loginsession()[pri:4, instance:com.classes360.Login_TestCase@27a8c74e]" name="loginsession" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.valid_Username_Password()[pri:11, instance:com.classes360.Login_TestCase@27a8c74e]" name="valid_Username_Password" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle()[pri:2, instance:com.classes360.Login_TestCase@27a8c74e]" name="verifyApplicationTitle" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.verify_title()[pri:3, instance:com.classes360.Login_TestCase@27a8c74e]" name="verify_title" class="com.classes360.Login_TestCase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Login_TestCase.Verify_Url_Dashboard()[pri:12, instance:com.classes360.Login_TestCase@27a8c74e]" name="Verify_Url_Dashboard" class="com.classes360.Login_TestCase"/>
+        <method signature="Login_TestCase.verifyApplicationTitle_Dashboard()[pri:13, instance:com.classes360.Login_TestCase@27a8c74e]" name="verifyApplicationTitle_Dashboard" class="com.classes360.Login_TestCase"/>
+      </group> <!-- Smoke -->
+      <group name="Unit">
+        <method signature="Login_TestCase.click_OnUser()[pri:14, instance:com.classes360.Login_TestCase@27a8c74e]" name="click_OnUser" class="com.classes360.Login_TestCase"/>
+      </group> <!-- Unit -->
+    </groups>
+    <test name="Default test" duration-ms="4644" started-at="2020-05-15T12:20:42Z" finished-at="2020-05-15T12:20:47Z">
+      <class name="com.classes360.Login_TestCase">
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:com.classes360.Login_TestCase@27a8c74e]" name="setup_Browser" is-config="true" duration-ms="11441" started-at="2020-05-15T12:20:31Z" finished-at="2020-05-15T12:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="Verify_Url()[pri:1, instance:com.classes360.Login_TestCase@27a8c74e]" name="Verify_Url" duration-ms="19" started-at="2020-05-15T12:20:42Z" description="To Check project URL is Correct:" finished-at="2020-05-15T12:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url -->
+        <test-method status="PASS" signature="verifyApplicationTitle()[pri:2, instance:com.classes360.Login_TestCase@27a8c74e]" name="verifyApplicationTitle" duration-ms="4" started-at="2020-05-15T12:20:42Z" description="To verify Application Title:" finished-at="2020-05-15T12:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="PASS" signature="verify_title()[pri:3, instance:com.classes360.Login_TestCase@27a8c74e]" name="verify_title" duration-ms="48" started-at="2020-05-15T12:20:42Z" finished-at="2020-05-15T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_title -->
+        <test-method status="PASS" signature="loginsession()[pri:4, instance:com.classes360.Login_TestCase@27a8c74e]" name="loginsession" duration-ms="16" started-at="2020-05-15T12:20:43Z" finished-at="2020-05-15T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginsession -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Username()[pri:5, instance:com.classes360.Login_TestCase@27a8c74e]" name="Check_PlaceHolder_Username" duration-ms="47" started-at="2020-05-15T12:20:43Z" finished-at="2020-05-15T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Username -->
+        <test-method status="PASS" signature="Check_PlaceHolder_Password()[pri:6, instance:com.classes360.Login_TestCase@27a8c74e]" name="Check_PlaceHolder_Password" duration-ms="47" started-at="2020-05-15T12:20:43Z" finished-at="2020-05-15T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_PlaceHolder_Password -->
+        <test-method status="PASS" signature="check_Button_color()[pri:7, instance:com.classes360.Login_TestCase@27a8c74e]" name="check_Button_color" duration-ms="214" started-at="2020-05-15T12:20:43Z" finished-at="2020-05-15T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Button_color -->
+        <test-method status="PASS" signature="check_Links()[pri:8, instance:com.classes360.Login_TestCase@27a8c74e]" name="check_Links" duration-ms="73" started-at="2020-05-15T12:20:43Z" finished-at="2020-05-15T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Links -->
+        <test-method status="PASS" signature="blank_username_password()[pri:9, instance:com.classes360.Login_TestCase@27a8c74e]" name="blank_username_password" duration-ms="298" started-at="2020-05-15T12:20:43Z" finished-at="2020-05-15T12:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_username_password -->
+        <test-method status="PASS" signature="invalidusername_password()[pri:10, instance:com.classes360.Login_TestCase@27a8c74e]" name="invalidusername_password" duration-ms="2355" started-at="2020-05-15T12:20:43Z" finished-at="2020-05-15T12:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidusername_password -->
+        <test-method status="PASS" signature="valid_Username_Password()[pri:11, instance:com.classes360.Login_TestCase@27a8c74e]" name="valid_Username_Password" duration-ms="1105" started-at="2020-05-15T12:20:46Z" finished-at="2020-05-15T12:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_Username_Password -->
+        <test-method status="PASS" signature="Verify_Url_Dashboard()[pri:12, instance:com.classes360.Login_TestCase@27a8c74e]" name="Verify_Url_Dashboard" duration-ms="8" started-at="2020-05-15T12:20:47Z" finished-at="2020-05-15T12:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url_Dashboard -->
+        <test-method status="PASS" signature="verifyApplicationTitle_Dashboard()[pri:13, instance:com.classes360.Login_TestCase@27a8c74e]" name="verifyApplicationTitle_Dashboard" duration-ms="6" started-at="2020-05-15T12:20:47Z" finished-at="2020-05-15T12:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle_Dashboard -->
+        <test-method status="PASS" signature="click_OnUser()[pri:14, instance:com.classes360.Login_TestCase@27a8c74e]" name="click_OnUser" duration-ms="353" started-at="2020-05-15T12:20:47Z" finished-at="2020-05-15T12:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_OnUser -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.classes360.Login_TestCase@27a8c74e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-05-15T12:20:47Z" finished-at="2020-05-15T12:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.classes360.Login_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
